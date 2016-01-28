@@ -1,6 +1,6 @@
 Package.describe({
   name: 'clinical:router-default-config',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Default router configuration for ClinicalFramework apps.',
   git: 'https://github.com/clinical-meteor/router-default-config',
   documentation: 'README.md'
@@ -9,6 +9,7 @@ Package.describe({
 Package.onUse(function (api) {
   api.versionsFrom('1.1.0.3');
   api.use('clinical:router@2.0.17');
+  api.use('clinical:error-pages@0.1.1');
   api.addFiles('router-default-config.js');
 });
 
