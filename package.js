@@ -1,6 +1,6 @@
 Package.describe({
   name: 'clinical:router-default-config',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: 'Default router configuration for ClinicalFramework apps.',
   git: 'https://github.com/clinical-meteor/router-default-config',
   documentation: 'README.md'
