@@ -8,7 +8,7 @@ Package.describe({
 
 Package.onUse(function (api) {
   api.versionsFrom('1.1.0.3');
-  api.use('clinical:router');
+  api.use('clinical:router@2.0.17');
   api.addFiles('router-default-config.js');
 });
 
